@@ -1,5 +1,8 @@
 import * as funcoes from './funcoes.js'
 
-console.log('Ola agradecemos sua participação.');
+let opcao = 1;
 
-console.log('Fala cara');
+    while (opcao !== 0) {
+      funcao.MostrarMenu();
+   funcao.MostrarFatos(opcao);
+    }
